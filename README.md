@@ -1,11 +1,11 @@
 # MechaCar Statistical Analysis
 ## Project Overview 
-I have been tasked with helping the data analytics team at AutosRUs' to review the production data for the company's lastest prototype, the MechaCar. With this analyis, we can give insight that may aid manufacturing efforts as well as sales amougnst competitors. For this project, we will complete the following: 
+I have been tasked with helping the data analytics team at AutosRUs' to review the production data for the company's lastest prototype, MechaCar. With this analysis, we can give insight that may aid manufacturing efforts as well as sales amongst competitors. For this project, we will complete the following: 
 
 - Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
--  Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
--  Run t-tests to determine if the manufacturing lots are statistically different from the mean population
--  Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers
+- Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+- Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers
 
 ## Linear Regression to Predict MPG
 ### Questions to Address: 
@@ -52,7 +52,7 @@ There are countless factors that consumers take into consideration when it comes
 ### What metric or metrics are you going to test?
 I would collect data for both the MechaCar prototype and comparable competitor models for the following metrics: safety rating, price, fuel efficiency, engine type, and maintaince costs on average.
 ### What is the null hypothesis or alternative hypothesis?
-Null hypothesis: There is no statistically significant relationship between price and the selected facors.  
+Null hypothesis: There is not a statistically significant relationship between price and the selected facors.  
 
 Alternative hypothesis: There is indeed a statistically significant relationship between price and the selected facors.
 
