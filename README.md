@@ -24,26 +24,32 @@ With an R-squared value of 0.715, the linear model predicts mpg of MechaCar prot
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 ### Results:
 ![](resources/total.png)
+
 From the "total_summary" table, we see the total variance in PSI for all manufacturing lots is about 62, which meets the design specifications that the variance of the suspension coils must not exceed 100 lbs per sqaure inch. 
 
 ![](resources/lot.png)
+
 For the "lot_summary" table, we calculated the statistics for each lot seperately. According to this analysis, we can not conclude that current manufacturing meets the design specifications as Lot 3 had a variance of 170 lbs per sqaure inch, which well exceeds the desired variance. 
 ##  T-Tests on Suspension Coils
 ### Questions to Address:
 Are the manufacturing lots as a whole statistically different from the population mean of 1,500 pounds per square inch? What about each lot individually?
 ### Results:
 Perform a T-test function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+
 ![](resources/allLots.png)
 
-The results of the t-test to compare all manufacturing lots against the population mean of 1500 tell us that the samplee mean is 1498.78 and p-value is 0.06028. Based on this, we can conclude that they are not statistically different from the population mean. While the p-value is low, it is still greater than our signifance level of 0.05, meaning we fail to reject the null hypothesis.
+The results of the t-test to compare all manufacturing lots against the population mean of 1500 tell us that the sample mean is 1498.78 and p-value is 0.06028. Based on this, we can conclude that they are not statistically different from the population mean. While the p-value is low, it is still greater than our signifance level of 0.05, meaning we fail to reject the null hypothesis.
 
 ![](resources/lot1.png)
+
 For the t-test to compare Lot 1 to the population mean, we see the mean is 1500 and the p-value 1. This is identical to the population mean, meaning it is not statistically significant because there is no difference bewteen the two. 
 
 ![](resources/lot2.png)
+
 As for Lot 2, the mean is 1500.2 and the p-value is 0.6072. The results are not statistically different from the population mean and the p-value > significance level, meaning we fail to reject the null hypothesis. 
 
 ![](resources/lot3.png)
+
 The t-test for Lot 3 resulted in a mean of 1496.14 and a p-value of 0.04. Unlike Lot 1 and Lot 2, Lot 3 is statistically different from the population mean given the p-value is less than our significance level.
 
 
