@@ -17,7 +17,7 @@ The most significant varibles in this dataset are vehicle length and ground clea
 
 The slope of the linear model not considered to be zero. Assuming the confidence level is 95%, our p-value, 5.35e-11, is far less than our significance level of 0.05. We therefore have enough reason to reject the null hypothesis that our slope is zero. 
 
-The linear model predicts mpg of MechaCar prototypes effiectly given the r-squared value is 0.7149, meaning that the linear regression model explains approx. 71% of the variability. 
+With an R-squared value of 0.715, the linear model predicts mpg of MechaCar prototypes effiectly. There is a  71.5% chance that future data will fit this model. 
 
 ## Summary Statistics on Suspension Coils
 ### Question to Address: 
