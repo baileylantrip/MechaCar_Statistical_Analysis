@@ -32,6 +32,7 @@ For the "lot_summary" table, we calculated the statistics for each lot seperatel
 ### Questions to Address:
 Are the manufacturing lots as a whole statistically different from the population mean of 1,500 pounds per square inch? What about each lot individually?
 ### Results:
+Perform a T-test function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 ![](resources/allLots.png)
 
 The results of the t-test to compare all manufacturing lots against the population mean of 1500 tell us that the samplee mean is 1498.78 and p-value is 0.06028. Based on this, we can conclude that they are not statistically different from the population mean. While the p-value is low, it is still greater than our signifance level of 0.05, meaning we fail to reject the null hypothesis.
